@@ -5,7 +5,7 @@ function Presentation() {
 
   return (
     <>
-      <img src={hero} className='absolute h-[300px] w-screen top-[161px]'></img>
+      <img src={hero} className='absolute h-[300px] w-screen top-[137px]'></img>
         <p className='absolute text-xl w-[80%] h-[50%] pt-[200px] ml-[10%]  '>
           Le monde est en état d’urgence, à la veille d’un possible cataclysme
           climatique,démographique, énergétique et financier. Biologique
