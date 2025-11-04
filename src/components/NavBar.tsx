@@ -1,9 +1,6 @@
-import './App.css'
-
-function App() {
-
-  return (
-    <>
+function NavBar () {
+    return (
+            <>
       <div class="relative w-screen h-[200px] p-0 m-0 text-black">
         <div class=" top-0 l-[50%] text-3xl color-black pb-5">
           Charles Henri Hüssy
@@ -18,7 +15,7 @@ function App() {
         </div>
       </div>
     </>
-  )
+    )
 }
-
-export default App
+ 
+export default NavBar
