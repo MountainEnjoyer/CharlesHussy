@@ -6,7 +6,7 @@ function Presentation() {
   return (
     <>
       <img src={hero} className='absolute h-[300px] w-screen top-[137px]'></img>
-        <p className='absolute text-xl w-[80%] h-[50%] pt-[200px] ml-[10%]  '>
+        <p className='absolute text-xl w-[80%] h-[50%] pb-[20px] pt-[200px] ml-[10%]  '>
           Le monde est en état d’urgence, à la veille d’un possible cataclysme
           climatique,démographique, énergétique et financier. Biologique
           également: espèce animale vivant parmi les autres, l'homme n'a guère
@@ -17,6 +17,7 @@ function Presentation() {
           réseaux sociaux, qui pour l'heure servent souvent à des usages égoïstes,
           déviés voire délictueux.
         </p>
+        <div className='absolute h-[100px] w-[99%] pt-[425px]'></div>
     </>
   )
 }
