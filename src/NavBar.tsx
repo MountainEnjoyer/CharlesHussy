@@ -2,7 +2,7 @@ import './index.css'
 
 function NavBar () {
     return (
-            <>
+    <>
       <div className=" w-screen fixed top-0 p-0 m-0 text-black z-1">
         <div className=" top-0 l-[50%] text-5xl color-black pb-5 pt-5 bg-white z-1">
           Charles Henri Hüssy
