@@ -5,6 +5,7 @@ function Bibliographie() {
     return (
         <>
             <ul className='relative text-xl pt-[150px] w-[95%] pl-[7%]'>
+                test
                 <li>Hüssy C.H., 1980. Genève, étude régionale. Essai d’analyse sémiologique en géographie humaine. <br/>Thèse No 272, Faculté des Sciences Économiques et Sociales, Berne, Francfort, Las Vegas, Peter Lang.</li><br/>
                 <li>Hüssy C.H., 1988 Géographie politique, par Friedrich Ratzel., éd. Economica. Hüssy C.H., 1991. <br/>Atlas du Bassin Genevois et de la Région Lémanique. Un espace transfrontalier au cœur de l’Europe. Encyclopédie de Genève.</li><br/>
                 <li>Hüssy C.H., 2016. Atlas du Grand Genève. État des lieux pour un progrès durable. Genève éd. Slatkine.</li><br/>
