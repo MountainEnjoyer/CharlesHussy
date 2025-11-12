@@ -3,11 +3,11 @@ import './index.css'
 function NavBar () {
     return (
     <>
-      <div className=" w-screen fixed top-0 p-0 m-0 text-black z-1">
-        <div className=" top-0 l-[50%] text-5xl color-black pb-5 pt-5 bg-white z-1">
+      <div className=" min-w-screen max-h-[10%]  top-0 p-0 m-auto text-black z-1">
+        <div className="w-min-fill text-5xl color-black pb-5 pt-5 bg-white z-1">
           Charles Henri Hüssy
         </div>
-        <div className="absolute left l-[-50%] border-b-[1px] border-t-[1px] h-max-[20%] w-screen border-gray-500 space-x-15 p-3 grid grid-cols-6 grid-rows-1 xs:space-x-2 xs:text-[15px] md:space-x-5 grid-flow-row bg-white z-1 text-wrap">
+        <div className="block m-auto space-x-4 border-b-[1px] border-t-[1px] h-max-[20%] min-w-screen text-wrap border-gray-500 gap-2 text-sm  bg-white z-1 ">
           <a href='/' className="hover:text-green-600 hover:font-bold">PRESENTATION</a>
           <a href='/apropos' className="hover:text-green-600 hover:font-bold">A PROPOS</a>
           <a href='/Videos' className="hover:text-green-600 hover:font-bold">VIDEOS</a>
