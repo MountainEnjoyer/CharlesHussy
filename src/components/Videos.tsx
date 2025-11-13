@@ -12,7 +12,8 @@ function Videos() {
                 referrerPolicy="strict-origin-when-cross-origin" 
                 allowFullScreen
                 src="https://www.youtube.com/embed/GHok9Y42mcA?si=R0i3x0gdMxGzmHpj"
-                style={{ width: '70%',  height: '70vh', margin: "auto", marginTop: "2%" }}
+                style={{ width: '70%',  height: '70vh', margin: "auto", marginTop: "2%",}}
+                className='items-center'
             />
         </>
     )
