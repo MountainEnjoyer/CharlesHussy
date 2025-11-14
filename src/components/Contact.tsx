@@ -10,6 +10,7 @@ function Contact() {
         e.preventDefault();
         emailjs.sendForm("service_yogarwd", "template_mcqn33x", form.current, "DwT7fucKEcpiVKRYi").then(
             () => {
+                emailjs.sendForm("service_yogarwd", "template_xm9x4xj", form.current, "DwT7fucKEcpiVKRYi")
                 alert("Message envoyé avec succès, vous trouverez dans votre boite mail une confirmation.");
                 form.current.reset();
             },
